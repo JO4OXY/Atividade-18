@@ -1,1 +1,2 @@
-# Atividade-18
+# atividade-18
+João Pedro Alves Miranda
