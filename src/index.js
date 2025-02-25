@@ -11,6 +11,11 @@ const port = 3000;                            // Define a porta
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());                      // Middleware para parsing JSON
 
+app.use(cors());
+
+app.use(roteadorUsuario);
+app.use(roteadorLogin);
+
 // Rota raiz
 app.get("/", ( req, res) => {
   console.log("Rota GET/ solicitada");
@@ -23,7 +28,3 @@ app.get("/", ( req, res) => {
 app.listen(port, () => {
   console.log(`Serviço escutando na porta: ${port}`);
 });
-app.use(roteadorUsuario);
-app.use(roteadorLogin);
-app.use(cors());
-
