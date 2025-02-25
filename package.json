@@ -4,19 +4,19 @@
   "description": "João Pedro ",
   "main": "index.js",
   "scripts": {
-      "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-      "dotenv": "^16.4.7",
-      "express": "^4.21.2",
-      "jsonwebtoken": "^9.0.2",
-      "node.js": "^0.0.1-security",
-      "nodemon": "^3.1.9",
-      "pg": "^8.13.3"
-     
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "node.js": "^0.0.1-security",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.3"
   },
   "type": "module"
 }
