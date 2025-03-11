@@ -5,7 +5,6 @@ import verificarAutenticacao from "../middlewares/autenticacao.js";
 
 const router = Router();
 
-
 router.get("/auth", verificarAutenticacao, async (req, res) => {
   console.log("Rota GET /auth solicitada");
   try {
